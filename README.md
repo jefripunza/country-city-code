@@ -7,9 +7,9 @@ deploy : https://country-city-code.herokuapp.com/
 
 #### all country : 
 ```
-/countries
+https://country-city-code.herokuapp.com/countries
 ```
 #### specific    : 
 ```
-/countries/{country_name}
+https://country-city-code.herokuapp.com/countries/{country_name}
 ```
