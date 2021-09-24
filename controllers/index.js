@@ -29,7 +29,7 @@ exports.search = async (req, res) => {
     let result = countrycity[country];
     result = result !== {} ? result : false
     if (!result) {
-        return errorJson(res, "Mohon isi query pencarian!");
+        return errorJson(res, "Country not found!");
     }
 
     return json(res, countrycity[country]);
