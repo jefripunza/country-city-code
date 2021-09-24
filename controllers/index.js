@@ -8,8 +8,10 @@ exports.index = (req, res) => {
         developer: 'Jefri Herdi Triyanto <jefripunza@gmail.com>',
         source: 'https://github.com/jefripunza/country-city-code',
         all: {
-            endpoint_1: '/countries',
-            endpoint_2: '/countries/',
+            endpoint: [
+                '/countries',
+                '/countries/',
+            ],
             example: fullUrl + 'countries'
         },
         specific: {
