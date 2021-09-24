@@ -5,5 +5,11 @@ deploy : https://country-city-code.herokuapp.com/
 
 ### parameter
 
-#### all country : /countries
-#### specific    : /countries/{country_name}
+#### all country : 
+```
+/countries
+```
+#### specific    : 
+```
+/countries/{country_name}
+```
